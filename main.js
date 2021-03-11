@@ -5,11 +5,11 @@ var close = $(".close")
 
 hamburgerBars.click(
   function () {
-    hamburgerMenu.slideDown("slow");
+    hamburgerMenu.show("slow");
   }
 );
 close.click(
   function (){
-    hamburgerMenu.slideUp("fast");
+    hamburgerMenu.hide("fast");
   }
 )
